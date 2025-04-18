@@ -41,7 +41,7 @@ docker run -d \
   -e HA_WEBHOOK_URL=https://your-home-assistant/api/webhook/your-hook-id \
   -v /path/to/plex/media:/media \
   -p 8000:8000 \
-  ghcr.io/ChrisHansenTech/plexsubsync-docker:latest
+  ghcr.io/chrishansentech/plexsubsync-docker:latest
 ```
 
 > Make sure the `/media` path matches your Plex library structure inside the container.

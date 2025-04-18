@@ -29,6 +29,6 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository_owner }}/plexsubsync-docker:latest
-            ghcr.io/${{ github.repository_owner }}/plexsubsync-docker:${{ github.ref_name }}
+            ghcr.io/chrishansentech/plexsubsync-docker:latest
+            ghcr.io/chrishansentech/plexsubsync-docker:${{ github.ref_name }}
           platforms: linux/amd64,linux/arm64
